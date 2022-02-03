@@ -37,7 +37,6 @@ import numpy as np
 import scipy.stats as stats
 import statsmodels.api as sm
 lowess = sm.nonparametric.lowess
-
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
