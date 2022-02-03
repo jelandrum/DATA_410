@@ -4,7 +4,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ## Hello World!
 
-![Puppy pic](cute_pup.jpg)
+![Puppy picture](cute_pup.jpg)
 
 ### Markdown
 
