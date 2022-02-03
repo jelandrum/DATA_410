@@ -1,8 +1,9 @@
-## Welcome to GitHub Pages
-
 You can use the [editor on GitHub](https://github.com/jelandrum/DATA_410/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+## Hello World!
+![Image](cute_pup.jpg)
 
 ### Markdown
 
@@ -24,6 +25,20 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
+```
+### Math Equation
+h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+
+### Python Code
+
+```
+git status
+git add
+import numpy as np
+import scipy.stats as stats
+import statsmodels.api as sm
+lowess = sm.nonparametric.lowess
+git commit
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
