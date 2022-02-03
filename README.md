@@ -29,16 +29,15 @@ Syntax highlighted code block
 ### Math Equation
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
+this math equation in markdown is text in markdown looks like: hθ(x) = θo x + θ1x
 ### Python Code
 
 ```
-git status
-git add
 import numpy as np
 import scipy.stats as stats
 import statsmodels.api as sm
 lowess = sm.nonparametric.lowess
-git commit
+
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
