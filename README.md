@@ -29,7 +29,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 ### Math Equation
-h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+h<sub>&theta;</sub>(x) = &theta;<sub>o</sub>x + &theta;<sub>1</sub>x
 
 this math equation in markdown is text in markdown looks like: hθ(x) = θo x + θ1x
 ### Python Code
