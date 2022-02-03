@@ -3,7 +3,9 @@ You can use the [editor on GitHub](https://github.com/jelandrum/DATA_410/edit/ma
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ## Hello World!
-![Image](cute_pup.jpg)
+
+### Image
+![Puppy pic](cute_pup.jpg)
 
 ### Markdown
 
