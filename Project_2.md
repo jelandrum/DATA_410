@@ -37,10 +37,11 @@ Based upon this comparison of regression methods using mean-squared error (mse),
 ![](vehicle_efficiency.png)
 
 ![](vehicle_weigt.png)
+Each step represents a different level of efficiency in a different cluster of observations. Compared to our initial graph for relationship linearity, this graph does a better job of reflecting the nuances of the cars data. The dotted vertical lines in the graph show us the residuals, which help us to observe the error in our prediction by comparing the observed and predicted values. 
 
 ![](tree1.png)
 
-This analysis shows us that vehichle efficiency is based upon the relationship between car weight and mileage. Considerations about automobile fuel consumption and environmental impacts (or car innovations to lessen such impacts) arise after establishing the strength of this relationship.
+This analysis shows us that vehichle efficiency is based upon the relationship between car weight and mileage. Considerations about automobile fuel consumption and environmental impacts (or car innovations to lessen such impacts) arise after establishing the strength of this relationship. 
 
 ## References:
 “Univariate Linear Regression Tutorials &amp; Notes: Machine Learning.” HackerEarth, www.hackerearth.com/practice/machine-learning/linear-regression/univariate-linear-regression/tutorial/#:~:text=Univariate linear regression focuses on,obvious to the naked eye.
