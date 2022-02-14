@@ -42,5 +42,5 @@ Based upon this comparison of regression methods using mean-squared error (mse),
 
 This analysis shows us that vehichle efficiency is based upon the relationship between car weight and mileage. Considerations about automobile fuel consumption and environmental impacts (or car innovations to lessen such impacts) arise after establishing the strength of this relationship.
 
-References:
+## References:
 “Univariate Linear Regression Tutorials &amp; Notes: Machine Learning.” HackerEarth, www.hackerearth.com/practice/machine-learning/linear-regression/univariate-linear-regression/tutorial/#:~:text=Univariate linear regression focuses on,obvious to the naked eye.
