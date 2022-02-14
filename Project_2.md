@@ -1,11 +1,9 @@
 # Project 2
 
-![](Project_2.ipynb)
+![](initial_efficiency.png)
 
-[Initial_Efficiency](initial_efficiency.png)
+![](vehicle_efficiency.png)
 
-[Vehicle_Efficiency](vehicle_efficiency.png)
+![](vehicle_weight.png)
 
-[Vehicle_Weight](vehicle_weight.png)
-
-[Decision_Tree](tree1.png)
+![](tree1.png)
