@@ -4,6 +4,6 @@
 
 ![](vehicle_efficiency.png)
 
-![](vehicle_weight.png)
+![](vehicle_weigt.png)
 
 ![](tree1.png)
