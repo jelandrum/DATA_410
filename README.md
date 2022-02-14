@@ -1,3 +1,3 @@
 # Index to my Advanced Applied Machine Learning Work
 
-[Project 2](Project_2.ipynb)
+[Project 2](Project_2.md)
