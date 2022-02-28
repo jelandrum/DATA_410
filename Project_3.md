@@ -8,4 +8,9 @@ This in an analysis of a real data set that was extracted from the 1974 *Motor T
 ## Cars Output
 ![](p3_cars_output.png)
 
+```
+The Cross-validated Mean Squared Error for LWR is : 16.927710396099975
+The Cross-validated Mean Squared Error for Boosted LWR is : 16.74826832858372
+The Cross-validated Mean Squared Error for XGB is : 16.559417572167884
+```
 The cars output shows that the lowest mean squared error belongs to the extreme gradient boosting method.
