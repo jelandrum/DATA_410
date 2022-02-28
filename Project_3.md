@@ -7,3 +7,5 @@ This in an analysis of a real data set that was extracted from the 1974 *Motor T
 
 ## Cars Output
 ![](p3_cars_output.png)
+
+The cars output shows that the lowest mean squared error belongs to the extreme gradient boosting method.
