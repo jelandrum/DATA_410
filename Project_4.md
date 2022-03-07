@@ -24,7 +24,8 @@ Ouput for the LightGBM algorithm:
 ```
 The rmse of prediction is: 0.26938
 ```
-In this exercise, the LightGBM model outperformed the other multiple regression models of XGBoost  and boosted locally weighted regression. For my hardware, the LGBM algorithm ran much faster than the other models, making it not only a high accuracy but also high speed model. This implementation can be an extremely helpful tool to refer to in the future for multiple regression methods. 
+In this exercise, the LightGBM model outperformed the other multiple regression models of XGBoost  and boosted locally weighted regression. For my hardware, the LGBM algorithm ran much faster than the other models, making it not only a high accuracy but also high speed model. This method can be an extremely helpful tool to refer to in the future for multiple regression implementations, as it is quick, prevents overfitting, and uses decision trees which consider multiple outcomes. 
 
 ### Sources:
 - https://www.kaggle.com/lasmith/house-price-regression-with-lightgbm
+- https://lightgbm.readthedocs.io/en/latest/pythonapi/lightgbm.LGBMRegressor.html
