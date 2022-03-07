@@ -18,7 +18,13 @@ The Cross-validated Mean Squared Error for XGB is : 76.07840604775828
 ```
 
 ### Part Two: The LightGBM algorithm 
-Here the LightGBM method was applied to the same data set used for part 1. 
+Here the LightGBM method was applied to the same data set used for part 1. I used the "House Price Regression with LightGBM" example by Lawrence Smith on Kaggle to implement the LightGBM method on the concrete dataset. Once again our predicitve values for x (i.e. age, water, and concrete) were used to predict y, our target variable of concrete strength. LightGBM is a custom function that enables powerful boosting implementation using gradient boosting with decision trees. There are numerous hyperparameters that are available for tweaking using LightBGM. In this implementation, the hyperparameters specified were: boosting_type = 'gbdt',n_estimators=100, max_depth= 1. For the rest of the hyperparameters, the default was accepted, such as the learning rate of 0.1. 
+
+Ouput for the LightGBM algorithm:
+```
+The rmse of prediction is: 0.26938
+```
+In this exercise, the LightGBM model outperformed the other multiple regression models of XGBoost  and boosted locally weighted regression. For my hardware, the LGBM algorithm ran much faster than the other models, making it not only a high accuracy but also high speed model. This implementation can be an extremely helpful tool to refer to in the future for multiple regression methods. 
 
 ### Sources:
 - https://www.kaggle.com/lasmith/house-price-regression-with-lightgbm
