@@ -23,6 +23,9 @@ from sklearn.metrics import mean_absolute_error as MAE, mean_squared_error as MS
 # import numba and jit
 from numba import njit
 ```
+The data for this project was found using kaggle.com. I used the NBA MVP dataset that holds NBA Stats from 1991-2021. I had trouble importing the csv because of the formatting but was able to resolve those issues using: 
+``` df = pd.read_csv('drive/My Drive/Colab Notebooks/DATA 410/data/mvps.csv', sep=';', encoding='latin-1') ```
+
 1. Sklearn compliant functions for Square Root Lasso and SCAD, used in conjunction with GridSearchCV for finding optimal hyper-parameters when data such as x-bar; and y-bar; are given.
 
 Grid Search output: 
