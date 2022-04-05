@@ -37,6 +37,12 @@ model validation after gridsearch: 0.035639050632911395
 
 model validation after SQRT Lasso: 0.0361251735886018
 
+SCAD output:
+```
+array([-3.47457096e-20, -3.31713975e-20, -3.60433566e-20, -3.57863962e-20,
+       -3.56467890e-20, -3.53998739e-20])
+```
+
 
 
 
