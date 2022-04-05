@@ -5,7 +5,7 @@ In this project, different regularization techniques including Ridge, LASSO, Ela
 1. Sklearn compliant functions for Square Root Lasso and SCAD, used in conjunction with GridSearchCV for finding optimal hyper-parameters when data such as x-bar; and y-bar; are given.
 
 Grid Search output: 
-
+![](gridsearch_fit_output.png)
 
 
 
