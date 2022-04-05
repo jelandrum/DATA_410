@@ -35,7 +35,7 @@ Grid Search output:
 
 model validation after gridsearch: 0.035639050632911395
 
-model validation after SQRT Lasso:0.0361251735886018
+model validation after SQRT Lasso: 0.0361251735886018
 
 
 
