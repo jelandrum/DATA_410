@@ -24,6 +24,10 @@ from sklearn.metrics import mean_absolute_error as MAE, mean_squared_error as MS
 from numba import njit
 ```
 The data for this project was found using kaggle.com. I used the NBA MVP dataset that holds NBA Stats from 1991-2021. I had trouble importing the csv because of the formatting but was able to resolve those issues using: ```df = pd.read_csv('drive/My Drive/Colab Notebooks/DATA 410/data/mvps.csv', sep=';', encoding='latin-1')```. This dataset looks like: ![](mvp_data.png)
+```
+y = df['FG%'].values.reshape(-1,1)
+X = df[['PTS','TRB','FT%','STL','AST','MP']].values
+``` As shown here, when specifying the parameters the Field Goal Percentage is what I set for y. For x parameters, I used points, total rebounds, free throw percentage, steals, assists, and minutes played (all NBA MVP statistics) to predict for y. I chose these parameters for x since these values are important for overall basketball game performance for a player. Not only are these statistics important for drafts and trading, but also play, initial recruitment, and of course Most Valuable Player Award selection. 
 
 
 1. Sklearn compliant functions for Square Root Lasso and SCAD, used in conjunction with GridSearchCV for finding optimal hyper-parameters when data such as x-bar; and y-bar; are given.
