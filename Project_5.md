@@ -7,7 +7,9 @@ In this project, different regularization techniques including Ridge, LASSO, Ela
 Grid Search output: 
 ![](gridsearch_fit_output.png)
 
+model validation after gridsearch: 0.035639050632911395
 
+model validation after SQRT Lasso:0.0361251735886018
 
 
 
