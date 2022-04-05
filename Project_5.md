@@ -3,11 +3,12 @@
 In this project, different regularization techniques including Ridge, LASSO, Elastic Net, SCAD, and Square Root Lasso will be applied for comparison.
 
 ```
-# general imports
+# general imports for these methods
 import numpy as np
 import pandas as pd
 from math import ceil
 from scipy import linalg
+from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
 from sklearn.metrics import mean_absolute_error
 from sklearn.datasets import make_spd_matrix
@@ -21,7 +22,6 @@ from sklearn.base import BaseEstimator, RegressorMixin
 from sklearn.metrics import mean_absolute_error as MAE, mean_squared_error as MSE
 # import numba and jit
 from numba import njit
-from sklearn.preprocessing import StandardScaler
 ```
 1. Sklearn compliant functions for Square Root Lasso and SCAD, used in conjunction with GridSearchCV for finding optimal hyper-parameters when data such as x-bar; and y-bar; are given.
 
