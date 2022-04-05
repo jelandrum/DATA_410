@@ -1,6 +1,6 @@
 ## Project 5: Comparison of Different Regularization and Variable Selection Techniques
 
-In this project, different regularization techniques including Ridge, LASSO, Elastic Net, SCAD, and Square Root Lasso will be applied for comparison.
+In this project, different regularization techniques including Ridge, LASSO, Elastic Net, SCAD, and Square Root Lasso will be applied for comparison. Sklearn compliant functions for Square Root Lasso and SCAD are used in conjunction with GridSearchCV for finding optimal hyper-parameters when data such as x-bar and y-bar are given. Data is simulated 100 data sets, each with 1200 features, 200 observations and a toeplitz correlation structure.
 
 ```
 # general imports for these methods
@@ -29,9 +29,6 @@ y = df['FG%'].values.reshape(-1,1)
 X = df[['PTS','TRB','FT%','STL','AST','MP']].values
 ``` 
 As shown above, when specifying the parameters the Field Goal Percentage is what I set for y. For x parameters, I used points, total rebounds, free throw percentage, steals, assists, and minutes played (all NBA MVP statistics) to predict for y. I chose these parameters for x since these values are important for overall basketball game performance for a player. Not only are these statistics important for drafts and trading, but also play, initial recruitment, and of course Most Valuable Player Award selection. 
-
-
-1. Sklearn compliant functions for Square Root Lasso and SCAD, used in conjunction with GridSearchCV for finding optimal hyper-parameters when data such as x-bar; and y-bar; are given.
 
 Grid Search output: 
 ![](gridsearch_fit_output.png)
