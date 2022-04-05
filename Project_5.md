@@ -42,9 +42,7 @@ SCAD output:
 array([-3.47457096e-20, -3.31713975e-20, -3.60433566e-20, -3.57863962e-20,
        -3.56467890e-20, -3.53998739e-20])
 ```
-
-
-
+Based upon the outputs, I believe the smoothly clipped absolute deviation model is the best given the first few outputs in the result. Aside from the SCAD technique, gridsearch seems to be the next best model with a lower mse value for the MVP data
 
 
 
